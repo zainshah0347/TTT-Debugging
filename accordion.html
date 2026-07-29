@@ -1,0 +1,221 @@
+<html>
+ <head>
+  <title>
+   Web Page
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        .header nav a {
+            margin-right: 20px;
+            text-decoration: none;
+            color: #b0b0b0;
+            font-size: 14px;
+        }
+        .header nav a.active {
+            color: #000000;
+        }
+        .header .right a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: #000000;
+            font-size: 14px;
+        }
+        .header .right .btn {
+            background-color: #000000;
+            color: #ffffff;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+        .content {
+            padding: 20px;
+        }
+        .accordion {
+            border-bottom: 1px solid #e0e0e0;
+        }
+        .accordion-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .accordion-item:hover {
+            background-color: #f0f0f0;
+        }
+        .accordion-item .number {
+            font-size: 48px;
+            color: #000000;
+            margin-right: 20px;
+        }
+        .accordion-item .text {
+            flex-grow: 1;
+            margin-left: 20px;
+        }
+        .accordion-item .text h2 {
+            font-size: 36px;
+            margin: 0;
+            color: #000000;
+        }
+        .accordion-item .icon {
+            font-size: 24px;
+            color: #000000;
+            margin-left: 20px;
+        }
+        .accordion-content {
+            display: none;
+            padding: 0 20px 20px 20px;
+        }
+        .accordion-content p {
+            font-size: 14px;
+            color: #707070;
+        }
+        .background-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            opacity: 0.1;
+        }
+        @media (max-width: 768px) {
+            .header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .header nav {
+                margin-bottom: 10px;
+            }
+            .header .right {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .header .right a {
+                margin-left: 0;
+                margin-bottom: 10px;
+            }
+            .accordion-item {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .accordion-item .number {
+                font-size: 36px;
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
+            .accordion-item .text {
+                margin-left: 0;
+                margin-bottom: 10px;
+            }
+            .accordion-item .text h2 {
+                font-size: 28px;
+            }
+            .accordion-item .icon {
+                align-self: flex-end;
+                margin-left: 0;
+            }
+        }
+  </style>
+  <script>
+   document.addEventListener('DOMContentLoaded', function() {
+            const items = document.querySelectorAll('.accordion-item');
+            items.forEach(item => {
+                item.addEventListener('mouseover', function() {
+                    const content = this.nextElementSibling;
+                    document.querySelectorAll('.accordion-content').forEach(content => content.style.display = 'none');
+                    content.style.display = 'block';
+                });
+                item.addEventListener('mouseout', function() {
+                    const content = this.nextElementSibling;
+                    content.style.display = 'none';
+                });
+            });
+        });
+  </script>
+ </head>
+ <body>
+ 
+
+   <div class="accordion">
+    <div class="accordion-item">
+     <div class="number">
+      01
+     </div>
+     <div class="text">
+      <h2>
+       Spacing
+      </h2>
+     </div>
+     <div class="icon">
+      <i class="fas fa-plus">
+      </i>
+     </div>
+    </div>
+    <div class="accordion-content">
+     <p>
+      Use our most popular design and development resources to jumpstart your latest project
+     </p>
+    </div>
+   </div>
+   <div class="accordion">
+    <div class="accordion-item">
+     <div class="number">
+      02
+     </div>
+     <div class="text">
+      <h2>
+       Fonts
+      </h2>
+     </div>
+     <div class="icon">
+      <i class="fas fa-plus">
+      </i>
+     </div>
+    </div>
+    <div class="accordion-content">
+     <p>
+      Use our most popular design and development resources to jumpstart your latest project
+     </p>
+    </div>
+   </div>
+   <div class="accordion">
+    <div class="accordion-item">
+     <div class="number">
+      03
+     </div>
+     <div class="text">
+      <h2>
+       Icons
+      </h2>
+     </div>
+     <div class="icon">
+      <i class="fas fa-plus">
+      </i>
+     </div>
+    </div>
+    <div class="accordion-content">
+     <p>
+      Use our most popular design and development resources to jumpstart your latest project
+     </p>
+    </div>
+   </div>
+
+  <img alt="Gradient background image" class="background-image" src="https://placehold.co/1920x1080/gradient.png"/>
+ </body>
+</html>

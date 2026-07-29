@@ -1,0 +1,1203 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--<< Header Area >>-->
+
+<head>
+    <!-- ========== Meta Tags ========== -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Mirza Jawad Baig - Thetaxtech">
+    <meta name="description"
+        content="Discover innovative tech solutions at Theta X Tech, where we empower businesses to achieve growth through customized software development, cutting-edge digital strategies, and expert UI/UX design. Unlock your business's full potential and thrive in a competitive digital world.">
+    <!-- ======== Page title ============ -->
+    <title>Theta X Tech</title>
+   
+    <!--<< Favcion >>-->
+    <link rel="shortcut icon" href="assets/img/favicon.svg">
+    <!-- << Bootstrap min.css >>-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!--<< All Min Css >>-->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <!--<< Animate.css >>-->
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <!--<< Magnific Popup.css >>-->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <!--<< MeanMenu.css >>-->
+    <link rel="stylesheet" href="assets/css/meanmenu.css">
+    <!--<< Swiper Bundle.css >>-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <!--<< Nice Select.css >>-->
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <!--<< Color.css >>-->
+    <link rel="stylesheet" href="assets/css/color.css">
+    <!--<< Main.css >>-->
+    <link rel="stylesheet" href="assets/css/main.css">
+        <!-- Link to the particles.js CDN -->
+        <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+</head>
+<style>
+ 
+  
+    .theme-btn:hover{
+        color: black;
+    }
+    #particles-js {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 150vh; /* Full viewport height */
+            z-index: -1;  /* Put particles behind the content */
+        }
+        @media only screen and (max-width: 768px) {
+            .about-wrapper .about-image-items .about-image img {
+    width: 0%;
+    height: 0%;
+    border-radius: 16px;
+}
+.header-1 .header-right .sidebar__toggle {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: var(--white);
+    color: #000;
+}
+.news-box-items .news-image img {
+    transition: 0.5s;
+    background-size: cover;
+    width: 50%;
+    border-radius: 8px;
+}
+.Logo-image{
+    max-width: 50% !important;
+}
+.hero-1 .hero-image img {
+    width: 130%;
+    height: 100%;
+    margin-left: -70px;
+    margin-top: -10px;
+}
+        }
+      
+/* Bottom Menu - Initially hidden */
+.bottom-menu {
+    display: none; /* Hidden by default */
+    position: fixed; /* Make the menu sticky */
+    bottom: 0;
+    left: 0;
+    width: 100%; /* Full width at the bottom */
+    text-align: center;
+}
+
+/* Button styling */
+.get-quote-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%; /* Full width on mobile */
+    padding: 15px 25px;
+    background-color: #F6921E;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    
+    transition: background-color 0.3s;
+    margin: 0 auto; /* Center the button horizontally */
+}
+
+/* Icon styling */
+.get-quote-btn i {
+    margin-right: 10px; /* Space between icon and text */
+}
+
+/* Hover effect for the button */
+.get-quote-btn:hover {
+    background-color: #f6911e6e;
+}
+
+/* Mobile-only styles (max-width: 600px) */
+@media (max-width: 600px) {
+    /* Show bottom menu only on mobile screens */
+    .bottom-menu {
+        display: block; /* Make the bottom menu visible */
+    }
+
+    /* Mobile-specific button styles */
+    .get-quote-btn {
+        font-size: 16px;
+        padding: 12px 15px;
+    }
+}
+</style>
+
+<body class="body-bg">
+
+    <!-- Preloader Start -->
+    <div id="preloader" class="preloader">
+        <div class="animation-preloader">
+            <div class="spinner">
+            </div>
+            <div class="txt-loading">
+                <!-- <span data-text-preloader="T" class="letters-loading">
+                    T
+                </span>
+                <span data-text-preloader="H" class="letters-loading">
+                    H
+                </span>
+                <span data-text-preloader="E" class="letters-loading">
+                    E
+                </span>
+                <span data-text-preloader="T" class="letters-loading">
+                    T
+                </span>
+                <span data-text-preloader="A" class="letters-loading">
+                    A
+                </span>
+                <span data-text-preloader="X" class="letters-loading">
+                    X
+                </span>
+                <span data-text-preloader="T" class="letters-loading">
+                    T
+                </span>
+                <span data-text-preloader="E" class="letters-loading">
+                    E
+                </span>
+                <span data-text-preloader="C" class="letters-loading">
+                    C
+                </span>
+                <span data-text-preloader="H" class="letters-loading">
+                    H
+                </span> -->
+            </div>
+            <p class="text-center">Loading...</p>
+        </div>
+        <div class="loader">
+            <div class="row">
+                <div class="col-3 loader-section section-left">
+                    <div class="bg"></div>
+                </div>
+                <div class="col-3 loader-section section-left">
+                    <div class="bg"></div>
+                </div>
+                <div class="col-3 loader-section section-right">
+                    <div class="bg"></div>
+                </div>
+                <div class="col-3 loader-section section-right">
+                    <div class="bg"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    <!--<< Mouse Cursor Start >>-->
+    <div class="mouse-cursor cursor-outer"></div>
+    <div class="mouse-cursor cursor-inner"></div>
+
+    <!-- Back To Top start -->
+    <button id="back-top" class="back-to-top">
+        <i class="fa-regular fa-arrow-up"></i>
+    </button>
+
+    <!-- Offcanvas Area Start -->
+    <div class="fix-area">
+        <div class="offcanvas__info">
+            <div class="offcanvas__wrapper">
+                <div class="offcanvas__content">
+                    <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
+                        <div class="offcanvas__logo">
+                            <a href="index.html">
+                                <img src="./assets/img/logo/white-logo.svg" alt="logo-img">
+                            </a>
+                        </div>
+                        <div class="offcanvas__close">
+                            <button>
+                                <i class="fas fa-times"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <p class="text d-none d-xl-block">
+                        Theta X Tech – All Rights Reserved. Designed with passion, innovation, and purpose. Let’s build something extraordinary together.
+                    </p>
+                    <div class="mobile-menu fix mb-3"></div>
+                    <div class="offcanvas__contact">
+                        <h4>Contact Info</h4>
+                        <ul>
+                            <li class="d-flex align-items-center">
+                                <div class="offcanvas__contact-icon">
+                                    <i class="fal fa-map-marker-alt"></i>
+                                </div>
+                                <div class="offcanvas__contact-text">
+                                    <a target="_blank" href="#">R-402, 2<sup>nd</sup> Floor, Inchauli Cooperative Housing Society, Karachi, Pakistan.</a>
+                                </div>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <div class="offcanvas__contact-icon mr-15">
+                                    <i class="fal fa-envelope"></i>
+                                </div>
+                                <div class="offcanvas__contact-text">
+                                    <a href="mailto:info@example.com"><span
+                                            class="mailto:info@thetaxtech.com">info@thetaxtech.com</span></a>
+                                </div>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <div class="offcanvas__contact-icon mr-15">
+                                    <i class="fal fa-clock"></i>
+                                </div>
+                                <div class="offcanvas__contact-text">
+                                    <a target="_blank" href="#">Mod-friday, 09am -06pm</a>
+                                </div>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <div class="offcanvas__contact-icon mr-15">
+                                    <i class="far fa-phone"></i>
+                                </div>
+                                <div class="offcanvas__contact-text">
+                                    <a href="tel:+92 312 2535770">+92 312 2535770</a>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="header-button mt-4">
+                            <a href="contact.html" class="theme-btn text-center">
+                                Get A Quote
+                            </a>
+                        </div>
+                        <div class="social-icon d-flex align-items-center">
+                            <a href=""><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.instagram.com/thetax_tech/"><i class="fab fa-instagram"></i></a>
+                            <a href="https://pk.linkedin.com/company/thetax-tech-pvt-ltd"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="offcanvas__overlay"></div>
+
+    <!-- Header Section Start -->
+    <header id="header-sticky" class="header-1">
+        
+        <div class="container">
+            
+            <div class="mega-menu-wrapper">
+                <div class="header-main">
+                    <img class="Logo-image" src="assets/img/logo/white-logo.svg" alt="">
+                    <div class="logo">
+                       
+                        <a href="index.html" class="">
+                            <!-- <img src="assets/img/logo/white-logo.svg" alt="logo-img"> -->
+                        </a>
+                    </div>
+                    <div class="mean__menu-wrapper">
+                        <div class="main-menu">
+                            <nav id="mobile-menu">
+                                <ul>
+                                    <li class="has-dropdown active menu-thumb">
+                                        <a href="index.html">
+                                            Home
+                                            
+                                        </a>
+                                      
+                                    </li>
+                                    
+                                    <li>
+                                        <a href="about.html">About Us</a>
+                                    </li>
+                                    <li>
+                                        <a href="service.html">
+                                            Services
+                                            <i style="color: #fff;" class="fa-solid fa-chevron-down"></i>
+                                        </a>
+                                        <ul class="submenu">
+                                            <li><a href="mobile_application_development.html">Mobile App Developement</a></li>
+                                            <li><a href="website_development.html">Website Development</a></li>
+                                            <li><a href="ui-ux.html">UI/UX Design</a></li>
+                                            <li><a href="digital_marketing.html">Digital Marketing</a></li>
+                                            <li><a href="Software_Development.html">Software_Development</a></li>
+                                            <li><a href="graphics_design.html">Graphics Design</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="project.html">Projects</a>
+                                    </li>
+                                  
+                                    <li>
+                                        <a href="news.html">Blog</a>
+                                    </li>
+                                    <li>
+                                        <a href="contact.html">Contact</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="header-right d-flex justify-content-end align-items-center">
+                        <div class="header-button">
+                            <!-- <a href="#0" class="search-trigger search-icon"><i
+                                    class="fa-regular fa-magnifying-glass"></i></a> -->
+                            <a href="contact.html" class="theme-btn">Get In Touch</a>
+                        </div>
+                        <div class="header__hamburger d-xl-block my-auto">
+                            <div class="sidebar__toggle">
+                                <i class="fas fa-bars"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Search Area Start -->
+    <!-- <div class="search-wrap">
+        <div class="search-inner">
+            <i class="fas fa-times search-close" id="search-close"></i>
+            <div class="search-cell">
+                <form method="get">
+                    <div class="search-field-holder">
+                        <input type="search" class="main-search-input" placeholder="Search...">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- Hero Section Start -->
+    <section class="hero-section hero-1 section-padding">
+        <div class="container">
+            <div class="background-circle circle1"></div>
+            <div class="background-circle circle2"></div>
+    
+            <div class="hero-content">
+
+                <h1 style="text-align: center;" class="wow fadeInUp" data-wow-delay=".3s"> Innovative <span>Tech</span> Solutions for Business
+                    Growth </h1>
+                <p style="text-align: center !important;" class="wow fadeInUp" data-wow-delay=".3s">Unlock business growth with Theta X Tech’s innovative
+                    solutions in software development, digital strategy, and UI/UX design.</p>
+                <div class="row">
+                    <div class="col-lg-12 wow fadeInUp" data-wow-delay=".4s">
+                        <div class="hero-image">
+                            <!-- <img src="assets/img/hero/011.png" alt="img"> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-counter float-bob-y ">
+                <div class="counter-items">
+                    <h2><span class="count">7</span>+</h2>
+                    <p>YEAR EXPERIENCE</p>
+                </div>
+                <div class="counter-items">
+                    <h2><span class="count">100</span>+</h2>
+                    <p>HAPPY CUSTOMER</p>
+                </div>
+                <div class="counter-items">
+                    <h2><span class="count">100</span>+</h2>
+                    <p>PROJECTS COMPLETED</p>
+                </div>
+            </div>
+            <div class="circle-item">
+                <div class="circle-text">
+                    <img src="assets/img/hero/circle-text.png" alt="img">
+                </div>
+                <div class="border-line">
+                    <a href="about.html" class="arrow-icon">
+                        <i class="fa-sharp fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Brand Section Start
+    <div class="brand-section section-padding fix pt-0">
+        <div class="container">
+            <div class="brand-text">
+                <h5>Trusted Partners</h5>
+            </div>
+            <div class="swiper brand-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="brand-image text-center">
+                            <img src="assets/img/brand/01.png" alt="img">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand-image text-center">
+                            <img src="assets/img/brand/02.png" alt="img">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand-image text-center">
+                            <img src="assets/img/brand/03.png" alt="img">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand-image text-center">
+                            <img src="assets/img/brand/04.png" alt="img">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand-image text-center">
+                            <img src="assets/img/brand/05.png" alt="img">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand-image text-center">
+                            <img src="assets/img/brand/06.png" alt="img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- About Section Start -->
+    <section class="about-section fix section-padding section-bg" id="about">
+        <div class="container">
+            <div class="section-title-area">
+                <div class="section-title">
+                    <h6 class="wow fadeInUp">About Us</h6>
+                    <h2 class="wow fadeInUp" data-wow-delay=".3s">Professionalism, Innovation, <span>&</span> <br>
+                        Excellence at the Core</h2>
+                </div>
+                <p class="wow fadeInUp" data-wow-delay=".5s">
+                    Our professional approach blends deep industry knowledge <br> with a commitment to pushing technological
+                    boundaries.<br> We specialize in providing end-to-end services that empower <br>businesses to thrive in the
+                    digital age.
+                </p>
+            </div>
+            <div class="about-wrapper">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-lg-7">
+                        <div class="about-image-items">
+                            <div class="row g-4 align-items-center">
+                                <div class="col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                                    <div class="support-content">
+                                        <h3>Always Here for You</h3>
+                                        <div class="text-area">
+                                            <p>Expert support, available<br> 24 Hours,whenever you need it.</p>
+                                            <a href="about.html" class="icon">
+                                                <i style="color: #000;" class="fa-sharp fa-solid fa-arrow-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="about-image">
+                                        <img src="assets/img/about/01.jpg" alt="img">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 wow fadeInUp" data-wow-delay=".5s">
+                                    <div class="about-image-2">
+                                        <div class="about-image style-2">
+                                            <img src="assets/img/about/02.png" alt="img">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="about-content">
+                            <div class="about-icon-items wow fadeInUp" data-wow-delay=".3s">
+                                <div class="icon">
+                                    <i class="fa-solid fa-dollar-sign"></i>
+
+                                </div>
+                                <div class="content">
+                                    <h3>Our Mission</h3>
+                                    <p>
+                                        We are committed to delivering excellence by understanding the unique needs of each client and providing tailored services that foster success and growth in a dynamic digital world.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="about-icon-items wow fadeInUp" data-wow-delay=".5s">
+                                <div class="icon">
+                                    <i class="fa-regular fa-star"></i>
+                                   
+                                </div>
+                                <div class="content">
+                                    <h3>Our Vision</h3>
+                                    <p>
+                                        We aim to be a trusted partner for our clients, guiding them through their digital journeys with innovation, expertise, and a deep understanding of the ever-evolving tech landscape. 
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="about-icon-items wow fadeInUp" data-wow-delay=".3s">
+                                <div class="icon">
+                                    <i class="fa-regular fa-shield-check"></i>
+                                   
+                                </div>
+                                <div class="content">
+                                    <h3>What Sets Us Apart</h3>
+                                    <p>
+                                        We don’t just provide services—we build long-term partnerships, empowering you to achieve your goals and excel in a competitive market.
+                                    </p>
+                                </div>
+                            </div>
+                            <a href="about.html" class="theme-btn wow fadeInUp" data-wow-delay=".5s">More About Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Section Start -->
+    <section class="service-section fix section-padding" id="services">
+        <div class="container">
+            <div class="section-title-area">
+                <div class="section-title">
+                    
+                    <h2 class="wow fadeInUp" data-wow-delay=".3s" ><span style="text-decoration: none;">Our Services</span></h2>
+                </div>
+                <a href="service.html" class="theme-btn wow fadeInUp" data-wow-delay=".5s">See All Services</a>
+            </div>
+            <div class="row g-0">
+                <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
+                    <div class="service-box-items">
+                        <div class="icon">
+                            <img src="assets/img/icon/3.png" alt="img">
+                        </div>
+                        <div class="content">
+                            <h3><a href="digital_marketing.html">
+                                Digital Marketing</a></h3>
+                            <p>
+                                We use advanced digital solutions to drive growth, enhance visibility, and attract quality traffic to your website
+                            </p>
+                            <div class="service-btn">
+                                <a href="digital_marketing.html" class="link-btn">Read more</a>
+                                <a href="digital_marketing.html" class="arrow-icon"><img src="assets/img/icon/02.svg"
+                                        alt="img"></a>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".4s">
+                    <div class="service-box-items">
+                        <div class="icon">
+                            <img src="assets/img/icon/4.png" alt="img">
+                        </div>
+                        <div class="content">
+                            <h3><a href="mobile_application_development.html">
+                                Mobile App Development</a></h3>
+                            <p>
+                                Transforming ideas into seamless mobile experiences with custom app development that drives engagement and growth.
+                            </p>
+                            <div class="service-btn">
+                                <a href="mobile_application_development.html" class="link-btn">Read more</a>
+                                <a href="mobile_application_development.html" class="arrow-icon"><img src="assets/img/icon/02.svg"
+                                        alt="img"></a>
+                           
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".6s">
+                    <div class="service-box-items">
+                        <div class="icon">
+                            <img src="assets/img/icon/ui.png" alt="img">
+                        </div>
+                        <div class="content">
+                            <h3><a href="ui-ux.html">
+                                UI/UX Design</a></h3>
+                            <p>
+                                Creating intuitive and engaging UI/UX designs that deliver exceptional user experiences and drive customer satisfaction.
+                            </p>
+                            <div class="service-btn">
+                                <a href="ui-ux.html" class="link-btn">Read more</a>
+                                <a href="ui-ux.html" class="arrow-icon"><img src="assets/img/icon/02.svg"
+                                        alt="img"></a>
+                           
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".8s">
+                    <div class="service-box-items border-none">
+                        <div class="icon">
+                            <img src="assets/img/icon/5.png" alt="img">
+                        </div>
+                        <div class="content">
+                            <h3><a href="website_development.html">
+                                Web Developement</a></h3>
+                            <p>
+                              
+Web Developement
+Building, high-performance websites with modern design and seamless functionality to enhance your online 
+                            </p>
+                            <div class="service-btn">
+                                <a href="website_development.html" class="link-btn">Read more</a>
+                                <a href="website_development.html" class="arrow-icon"><img src="assets/img/icon/02.svg"
+                                        alt="img"></a>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+         
+       
+           
+            <div class="row g-0">
+                <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
+                    <div class="service-box-items">
+                        <div class="icon">
+                            <img src="assets/img/icon/6.png" alt="img">
+                        </div>
+                        <div class="content">
+                            <h3><a href="Software_Development.html">
+                                
+Software Development</a></h3>
+                            <p>
+                                Delivering tailored software solutions that optimize efficiency, streamline processes, and drive innovation for your business.
+                            </p>
+                            <div class="service-btn">
+                                <a href="Software_Development.html" class="link-btn">Read more</a>
+                                <a href="Software_Development.html" class="arrow-icon"><img src="assets/img/icon/02.svg"
+                                        alt="img"></a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".6s">
+                    <div class="service-box-items">
+                        <div class="icon">
+                            <img src="assets/img/icon/8.png" alt="img">
+                        </div>
+                        <div class="content">
+                            <h3><a href="graphics_design.html">
+                                
+Graphics Design</a></h3>
+                            <p>
+                              
+Graphics Design
+Crafting visually stunning graphic designs that capture attention, communicate your brand,leave a lasting.
+                            </p>
+                            <div class="service-btn">
+                                <a href="graphics_design.html" class="link-btn">Read more</a>
+                                <a href="graphics_design.html" class="arrow-icon"><img src="assets/img/icon/02.svg"
+                                        alt="img"></a>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".8s">
+                    <div class="service-box-items border-none">
+                        <div class="icon">
+                            <img src="assets/img/icon/10.png" alt="img">
+                        </div>
+                        <div class="content">
+                            <h3><a href="branding.html">
+                                Branding</a></h3>
+                            <p>
+                                Building powerful brands with distinctive designs and strategies that connect, engage, and resonate with your audience.
+                            </p>
+                            <div class="service-btn">
+                                <a href="branding.html" class="link-btn">Read more</a>
+                                <a href="branding.html" class="arrow-icon"><img src="assets/img/icon/02.svg"
+                                        alt="img"></a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section Start -->
+    <section class="portfolio-section fix section-bg section-padding" id="projects">
+        <div class="container">
+            <div class="section-title-area">
+                <div class="section-title">
+                    <h2 class="wow fadeInUp" data-wow-delay=".3s">Our Portfolio</h2>
+                </div>
+                <a href="project.html" class="theme-btn wow fadeInUp" data-wow-delay=".5s">See All Works</a>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="portfolio-box-items wow fadeInUp" data-wow-delay=".3s">
+                        <div class="project-wrap">
+                            <div class="content">
+                               
+                                <h3><a href="markofleather.html">Mark oF Leather</a></h3>
+                            </div>
+                            <p>
+                                We created a sleek, responsive e-commerce site for Mark oF Leather, showcasing their premium handcrafted leather goods with an easy-to-navigate, secure shopping experience.
+                            </p>
+                        </div>
+                        <a href="markofleather.html" class="radius-btn">
+                            <i class="fa-sharp fa-solid fa-arrow-right"></i>
+                            Case Study
+                        </a>
+                        <div class="project-hover d-none d-md-block bg-cover"
+                            style="background-image: url('assets/img/project/banner-1.jpg');"></div>
+                    </div>
+                    <div class="portfolio-box-items wow fadeInUp" data-wow-delay=".3s">
+                        <div class="project-wrap">
+                            <div class="content">
+                              
+                                <h3><a href="Creditech.html">Creditech</a></h3>
+                            </div>
+                            <p>
+                                We developed a modern, secure website for Creditech Financing, offering easy access to financial services with a user-friendly interface and seamless loan application process.
+                            </p>
+                        </div>
+                        <a href="Creditech.html" class="radius-btn">
+                            <i class="fa-sharp fa-solid fa-arrow-right"></i>
+                            Case Study
+                        </a>
+                        <div class="project-hover d-none d-md-block bg-cover"
+                            style="background-image: url('assets/img/project/banner-2.png');"></div>
+                    </div>
+                    <div class="portfolio-box-items wow fadeInUp" data-wow-delay=".3s">
+                        <div class="project-wrap">
+                            <div class="content">
+                          
+                                <h3><a href="Makstitch.html">Makstitch</a></h3>
+                            </div>
+                            <p>
+                                We built a dynamic e-commerce platform for Makstitch, featuring a multi-vendor marketplace that allows users to buy and sell custom stitching products with seamless transactions and an intuitive interface.
+                            </p>
+                        </div>
+                        <a href="Makstitch.html" class="radius-btn">
+                            <i class="fa-sharp fa-solid fa-arrow-right"></i>
+                            Case Study
+                        </a>
+                        <div class="project-hover d-none d-md-block bg-cover"
+                            style="background-image: url('assets/img/project/banner-4.png');"></div>
+                    </div>
+                    <div class="portfolio-box-items wow fadeInUp" data-wow-delay=".3s">
+                        <div class="project-wrap">
+                            <div class="content">
+                              
+                                <h3><a href="vitgames.html"></a>Vit Games</h3>
+                            </div>
+                            <p>
+                                We designed an engaging, interactive blog for Vit Game, offering the latest gaming news, reviews, and updates with a sleek, user-friendly layout and easy navigation.
+                            </p>
+                        </div>
+                        <a href="vitgames.html" class="radius-btn">
+                            <i class="fa-sharp fa-solid fa-arrow-right"></i>
+                            Case Study
+                        </a>
+                        <div class="project-hover d-none d-md-block bg-cover"
+                            style="background-image: url('assets/img/project/banner-3.png');"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ 
+
+    <!-- Testimonial Section Start -->
+    <section class="testimonial-section fix section-bg section-padding">
+        <div class="container">
+            <div class="section-title text-center">
+                <h6 class="wow fadeInUp">Testimonial</h6>
+                <h2 class="wow fadeInUp" data-wow-delay=".3s">Client <span>Feedback</span></h2>
+            </div>
+            <div class="swiper testimonial-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="testimonial-box-items">
+                            <div class="client-info">
+                                <div class="client-img">
+                                    <img src="assets/img/testimonial/01.png" alt="img">
+                                </div>
+                                <div class="content">
+                                    <h5>Guy Hawkins</h5>
+                                    <span>Austin</span>
+                                </div>
+                            </div>
+                            <p>
+                                 transformed our ideas into a stunning reality. Their innovative approach and
+                                dedication to our project were exceptional. We couldn’t be happier with the results."
+                            </p>
+                            <div class="testi-bottom">
+                                <div class="star">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                </div>
+                                <div class="quote-icon">
+                                    <img src="assets/img/testimonial/quote.png" alt="img">
+                                </div>
+                            </div>
+                            <div class="icon">
+                                <img src="assets/img/testimonial/icon.png" alt="img">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial-box-items">
+                            <div class="client-info">
+                                <div class="client-img">
+                                    <img src="assets/img/testimonial/02.png" alt="img">
+                                </div>
+                                <div class="content">
+                                    <h5>Albert Flores</h5>
+                                    <span>Fairfield</span>
+                                </div>
+                            </div>
+                            <p>
+                                thetaxtech transformed our ideas into a stunning reality. Their innovative approach and
+                                dedication to our project were exceptional. We couldn’t be happier with the results."
+                            </p>
+                            <div class="testi-bottom">
+                                <div class="star">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                </div>
+                                <div class="quote-icon">
+                                    <img src="assets/img/testimonial/quote.png" alt="img">
+                                </div>
+                            </div>
+                            <div class="icon">
+                                <img src="assets/img/testimonial/icon.png" alt="img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Section Start -->
+    <section class="news-section fix section-padding" id="blog">
+        <div class="container">
+            <div class="section-title-area">
+                <div class="section-title">
+                    <h6 class="wow fadeInUp">Blog & News </h6>
+                    <h2 class="wow fadeInUp" data-wow-delay=".3s">Latest News & <span>Blog</span></h2>
+                </div>
+                <a href="news.html" class="theme-btn wow fadeInUp" data-wow-delay=".5s">See All Blog</a>
+            </div>
+            <div class="row">
+                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                    <div class="news-box-items">
+                        <div class="news-image">
+                            <img src="assets/img/news/blog-9.jpg" alt="img">
+                            <img src="assets/img/news/blog-9.jpg" alt="img">
+                        </div>
+                        <div class="news-content">
+                            <p>11 February, 2025</p>
+                            <h3><a href="mastering-app-development-and-it-strategies-for-future-websites.html">Mastering App Development and IT Strategies for Future Websites</a></h3>
+                            <div class="news-btn">
+                                <a href="mastering-app-development-and-it-strategies-for-future-websites.html" class="link-btn">View Details</a>
+                                <a href="mastering-app-development-and-it-strategies-for-future-websites.html" class="arrow-icon"><img src="assets/img/icon/02.svg"
+                                        alt="img"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
+                    <div class="news-box-items">
+                        <div class="news-image">
+                            <img src="assets/img/news/blog-1.png" alt="img">
+                            <img src="assets/img/news/blog-1.png" alt="img">
+                        </div>
+                        <div class="news-content">
+                            <p>6 February, 2024</p>
+                            <h3><a href="how-innovation-is-transforming-the-it-landscape.html">How Innovation is Transforming the IT Landscape</a></h3>
+                            <div class="news-btn">
+                                <a href="how-innovation-is-transforming-the-it-landscape.html" class="link-btn">View Details</a>
+                                <a href="how-innovation-is-transforming-the-it-landscape.html" class="arrow-icon"><img src="assets/img/icon/02.svg"
+                                        alt="img"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
+                    <div class="news-box-items">
+                        <div class="news-image">
+                            <img src="assets/img/news/blog01.png" alt="img">
+                            <img src="assets/img/news/blog01.png" alt="img">
+                        </div>
+                        <div class="news-content">
+                            <p>3 February, 2025</p>
+                            <h3><a href="innovation-in-it-top-tech-trends-to-look-for-in-2025.html">Innovation in IT: Top Tech Trends to Look for in 2025</a></h3>
+                            <div class="news-btn">
+                                <a href="innovation-in-it-top-tech-trends-to-look-for-in-2025.html" class="link-btn">View Details</a>
+                                <a href="innovation-in-it-top-tech-trends-to-look-for-in-2025.html" class="arrow-icon"><img src="assets/img/icon/02.svg"
+                                        alt="img"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lets Talk Section Start -->
+    <section class="lets-talk-section fix section-padding section-bg pb-0">
+        <div class="container">
+            <div class="lets-talk-wrapper">
+                <h2 class="wow fadeInUp" data-wow-delay=".3s">Have a project in mind? Let’s <br> work together!</h2>
+                <a style="padding: 20px 40px;
+    font-size: 24px;" href="contact.html" class="theme-btn wow fadeInUp" data-wow-delay=".5s">Let’s Talk!</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section Start -->
+    <footer class="footer-section section-bg fix">
+        <div class="container">
+            <div class="footer-widgets-wrapper">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
+                        <div class="single-footer-widget">
+                            <div class="widget-head">
+                                <a href="index.html">
+                                    <img src="./assets/img/logo/white-logo.svg" alt="img" style="max-width: 60%;">
+                                </a>
+                            </div>
+                            <div class="footer-content">
+                                <p>
+                                    Theta X Tech – All Rights Reserved. Designed with passion, innovation, and purpose. Let’s build something extraordinary together.
+                                </p>
+                                <div class="social-icon d-flex align-items-center">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="https://www.instagram.com/thetax_tech/"><i class="fab fa-instagram"></i></a>
+                                    <a href="https://pk.linkedin.com/company/thetax-tech-pvt-ltd"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-4 col-md-6 ps-lg-3 wow fadeInUp" data-wow-delay=".4s">
+                        <div class="single-footer-widget">
+                            <div class="widget-head">
+                                <h3>Quick Links</h3>
+                            </div>
+                            <ul class="list-items">
+                                <li>
+                                    <a href="about.html">
+                                        About Us
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="service.html">
+                                        Services 
+                                    </a>
+                                    
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Blog
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="contact.html">
+                                        Contact Us
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-4 col-md-6 ps-lg-3 wow fadeInUp" data-wow-delay=".4s">
+                        <div class="single-footer-widget">
+                            <div class="widget-head">
+                                <h3>Top Services</h3>
+                            </div>
+                            <ul class="list-items">
+                                <li>
+                                    <a href="ui-ux.html">
+                                        UI/UX
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="website_development.html">
+                                        Web Development
+                                    </a>
+                                    
+                                </li>
+                                <li>
+                                    <a href="digital_marketing.html">
+                                        Digital Marketing
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="graphics_design.html">
+                                        Graphics Designing
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 ps-lg-5 wow fadeInUp" data-wow-delay=".6s">
+                        <div class="single-footer-widget">
+                            <div class="widget-head">
+                                <h3>Office</h3>
+                            </div>
+                            <div class="footer-content">
+                                <p>R-402, 2<sup>nd</sup> Floor, Inchauli Cooperative Housing Society, Karachi, Pakistan.</p>
+                                <div class="contact-text">
+                                    <h4 class="pb-3"><a href="tel:6035550123">+92 312 2535770</a></h4>
+                                    <h5><a href="mailto:info@example.com">info@thetaxtech.com.pk</a></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-bottom-wrapper">
+                    <p class="wow fadeInUp" data-wow-delay=".3s">Copyright @ 2025 Theta X Tech</p>
+                    <p class="wow fadeInUp" data-wow-delay=".5s"></a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <section>
+  <!-- Pop-Up Modal -->
+<div class="bottom-menu" id="bottom-menu">
+    <a href="javascript:void(0);" class="get-quote-btn" id="get-quote-btn">
+        <i class="fas fa-quote-left"></i> Get a Quote
+    </a>
+</div>
+
+
+  
+  <div id="quote-popup" class="quote-popup">
+    <div class="quote-popup-content">
+   
+      <span class="close-btn" id="close-popup">&times;</span>
+
+   
+      <div class="popup-left">
+        <img alt="Background with speech bubbles" src="assets/img/about/banner_about.png"/>
+        <h3>Got a Project in Mind?
+            We’re Here to Help!</h3>
+        <p>Our team of experts is available 24/7, ready to provide you with an unmatched experience. Let’s bring your vision to life!e</p>
+      </div>
+
+    
+      <div class="popup-right">
+        <h3>Request a Quote</h3>
+        <form>
+          <input name="name" placeholder="Name *" required="" type="text"/>
+          <input name="email" placeholder="Email *" required="" type="email"/>
+          <input name="contact" placeholder="Contact *" required="" type="text"/>
+          <input name="company" placeholder="Business Or Company Name *" required="" type="text"/>
+          <select name="select" required="">
+            <option disabled="" selected="" value="">Select*</option>
+            <option value="web-development">Web Development</option>
+            <option value="App-development">App Development</option>
+            <option value="UI/UX">UI/UX</option>
+            <option value="seo">SEO</option>
+            <option value="digital-marketing">Digital Marketing</option>
+            <option value="branding">Branding</option>
+          </select>
+          <button class="theme-btn" type="submit">SUBMIT</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+<script>
+    
+</script>
+<script>
+        let lastScrollTop = 0; // Store the last scroll position
+const header = document.getElementById('header-sticky'); // Get the header element
+
+window.addEventListener('scroll', function() {
+    let currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+
+    if (currentScroll > lastScrollTop) {
+        // Scrolling down - hide the header
+        header.classList.add('hidden');
+    } else {
+        // Scrolling up - show the header
+        header.classList.remove('hidden');
+    }
+    lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; // Prevent negative scroll values
+});
+</script>
+  <script>
+
+    // Get the elements
+    var popup = document.getElementById("quote-popup");
+    var btn = document.getElementById("get-quote-btn");
+    var closeBtn = document.getElementById("close-popup");
+
+    // When the user clicks on "Get A Quote" button, show the pop-up
+    btn.onclick = function() {
+        popup.style.display = "flex";
+    }
+
+    // When the user clicks on the close button, hide the pop-up
+    closeBtn.onclick = function() {
+        popup.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the pop-up, close it
+    window.onclick = function(event) {
+        if (event.target === popup) {
+            popup.style.display = "none";
+        }
+    }
+  </script>
+
+    <script>
+        // Function to show or hide the bottom menu based on screen width
+function checkScreenSize() {
+    const bottomMenu = document.getElementById('bottom-menu');
+    
+    // Check if the screen width is less than or equal to 600px
+    if (window.innerWidth <= 600) {
+        bottomMenu.style.display = 'block'; // Show the bottom menu on mobile
+    } else {
+        bottomMenu.style.display = 'none'; // Hide the bottom menu on larger screens
+    }
+}
+
+// Run the function on page load
+window.onload = checkScreenSize;
+
+// Run the function every time the window is resized
+window.onresize = checkScreenSize;
+
+    </script>
+ <script>
+   
+</script>
+
+    <!--<< All JS Plugins >>-->
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <!--<< Viewport Js >>-->
+    <script src="assets/js/viewport.jquery.js"></script>
+    <!--<< Bootstrap Js >>-->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!--<< Nice Select Js >>-->
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <!--<< Waypoints Js >>-->
+    <script src="assets/js/jquery.waypoints.js"></script>
+    <!--<< Counterup Js >>-->
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <!--<< Swiper Slider Js >>-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <!--<< MeanMenu Js >>-->
+    <script src="assets/js/jquery.meanmenu.min.js"></script>
+    <!--<< Magnific Popup Js >>-->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!--<< Wow Animation Js >>-->
+    <script src="assets/js/wow.min.js"></script>
+    <!--<< Main.js >>-->
+    <script src="assets/js/main.js"></script>
+</body>
+      
+</html>
